@@ -21,3 +21,20 @@ p {
 #app {
   padding: 100px 20px 20px 20px;
 }
+
+@font-face {
+  font-family: PTSerif-Bold;
+  src: url(./PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: PTSerif-BoldItalic;
+  src: url(./PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PTSerif-Italic;
+  src: url(./PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: Regular;
+  src: url(./PTSerif-Regular.ttf);
+}

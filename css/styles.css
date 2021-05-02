@@ -23,6 +23,22 @@ p {
   padding: 100px 20px 20px 20px;
 }
 
+@font-face {
+  font-family: PTSerif-Bold;
+  src: url(./PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: PTSerif-BoldItalic;
+  src: url(./PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PTSerif-Italic;
+  src: url(./PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: Regular;
+  src: url(./PTSerif-Regular.ttf);
+}
 nav {
   width: 80%;
   height: 60px;
@@ -72,11 +88,11 @@ nav .links .pipe {
 
 .hero h1 {
   display: flex;
-  margin-left: 100px;
+  margin-left: 120px;
   margin-top: 90px;
   font-size: 60px;
   color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Regular;
   text-decoration: none;
 }
 
@@ -84,7 +100,7 @@ nav .links .pipe {
   display: flex;
   margin-left: 450px;
   color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: PTSerif-Italic;
   color: #ee4367;
 }
 
@@ -93,7 +109,7 @@ nav .links .pipe {
   margin-left: 400px;
   margin-top: 70px;
   font-size: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: PTSerif-Italic;
   color: white;
 }
 
@@ -120,9 +136,10 @@ nav .links .pipe {
 .comment p {
   width: 789px;
   height: 90px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: PTSerif-BoldItalic, sans-serif;
   padding-top: 100px;
   margin: 0 auto;
+  color: #ffd140;
 }
 .comment h1 {
   padding-top: 100px;
@@ -213,7 +230,7 @@ footer {
   background-color: #ee4367;
   margin: 0 auto;
 }
-footer .logo {
+footer .footer-logo {
   width: 92px;
   height: 42px;
   background-image: url(../images/logo-white.png);
