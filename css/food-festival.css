@@ -1,0 +1,8 @@
+.food-image {
+  width: 980px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}

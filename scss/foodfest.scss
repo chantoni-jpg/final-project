@@ -1,0 +1,50 @@
+.foodfest-image {
+  width: 980px;
+  height: 400px;
+  background-image: linear-gradient(to right, $overlay-purple, $overlay-purple),
+    url(../images/4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+
+  .number {
+    font-size: 300px;
+    position: relative;
+    top: 110px;
+    color: #540d6e;
+    text-shadow: 3px 2px 9px #000000;
+  }
+  .word {
+    position: relative;
+    left: 250px;
+    bottom: 70px;
+    font-size: 115px;
+    color: #540d6e;
+    text-shadow: 3px 2px 9px #000000;
+  }
+}
+.para-one {
+  p {
+    width: 490px;
+    height: 133px;
+    position: relative;
+    left: 270px;
+    top: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 16px;
+  }
+}
+.para-two {
+  p {
+    width: 451px;
+    height: 133px;
+    position: relative;
+    left: 800px;
+    bottom: 97px;
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}

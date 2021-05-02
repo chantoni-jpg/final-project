@@ -1,0 +1,26 @@
+.about-image {
+  width: 979px;
+  height: 378px;
+  background-image: linear-gradient(to right, $overlay-yellow, $overlay-yellow),
+    url(../images/about.jpg);
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  padding-left: 270px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline;
+}
+.history {
+  width: 980px;
+  height: 96px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 10px;
+}
+.padding {
+  padding: 55px;
+}

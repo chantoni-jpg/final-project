@@ -1,0 +1,46 @@
+nav {
+  width: 80%;
+  height: 60px;
+  margin: 20px auto;
+  //   background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-left: 150px;
+  top: 0px;
+
+  .border {
+    border-bottom: white solid 2px;
+  }
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    // background-color: yellow;
+    background-image: url(../images/logo-white.png);
+  }
+
+  .links {
+    width: 542px;
+    height: 42px;
+    // background-color: palevioletred;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: white;
+      margin: auto;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+
+    .pipe {
+      color: $site-pink;
+      font-size: 35px;
+    }
+  }
+}

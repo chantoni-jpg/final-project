@@ -1,0 +1,102 @@
+footer {
+  width: 1280px;
+  height: 455px;
+  background-color: $site-pink;
+  margin: 0 auto;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    // background-color: yellow;
+    background-image: url(../images/logo-white.png);
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+  }
+  p {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: white;
+  }
+  input[type="text"] {
+    position: relative;
+    left: 250px;
+    top: 50px;
+    width: 529px;
+    height: 60px;
+    background-color: #f56b88;
+    border: none;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 16px;
+  }
+  ::placeholder {
+    color: white;
+    opacity: 0.5;
+  }
+  .button {
+    border: none;
+    background-color: white;
+    width: 167px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: $site-pink;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    position: relative;
+    left: 777px;
+    bottom: 30px;
+  }
+  .facebook {
+    width: 35px;
+    height: 35px;
+    //background-color: palegoldenrod;
+    position: relative;
+    left: 550px;
+    top: 4px;
+    background-image: url(../images/kissclipart-transparent-background-facebook-icon-white-clipart-55c44242a2a6993e.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .instagram {
+    width: 31px;
+    height: 31px;
+    //background-color: palegoldenrod;
+    position: relative;
+    left: 600px;
+    bottom: 30px;
+    background-image: url(../images/Instagram-icon-WHITE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .twitter {
+    width: 31px;
+    height: 31px;
+    //background-color: palegoldenrod;
+    position: relative;
+    left: 650px;
+    bottom: 60px;
+    background-image: url(../images/twitter-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .copyright {
+    //background-color: paleturquoise;
+    position: relative;
+    bottom: 130px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 12px;
+  }
+}

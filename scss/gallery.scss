@@ -1,0 +1,61 @@
+.gallery {
+  height: 700px;
+}
+.image-one {
+  width: 489px;
+  height: 187px;
+  background-image: linear-gradient(to right, $overlay-yellow, $overlay-yellow),
+    url(../images/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: 270px;
+}
+.image-two {
+  width: 187px;
+  height: 187px;
+  background-image: linear-gradient(to right, $overlay-pink, $overlay-pink),
+    url(../images/2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: 770px;
+  bottom: 187px;
+  position: relative;
+}
+.image-three {
+  width: 265px;
+  height: 187px;
+  background-image: linear-gradient(to right, $overlay-green, $overlay-green),
+    url(../images/3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: 970px;
+  bottom: 374px;
+  position: relative;
+}
+.image-four {
+  width: 603px;
+  height: 306px;
+  background-image: linear-gradient(to right, $overlay-purple, $overlay-purple),
+    url(../images/4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: 270px;
+  position: relative;
+  bottom: 350px;
+}
+.image-five {
+  width: 355px;
+  height: 306px;
+  background-image: linear-gradient(to right, $overlay-blue, $overlay-blue),
+    url(../images/5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: 890px;
+  bottom: 656px;
+  position: relative;
+}
