@@ -32,8 +32,6 @@ nav {
   position: absolute;
   margin-left: 150px;
   top: 0px;
-}
-nav .border {
   border-bottom: white solid 2px;
 }
 nav .logo {
